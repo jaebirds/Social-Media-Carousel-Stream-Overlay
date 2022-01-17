@@ -1,0 +1,180 @@
+{
+    "fontSize": {
+        "group": "TEXT & COLOUR OPTIONS",
+        "type": "number",
+        "label": "Font size (px)",
+        "value": 40
+    },
+  	"iconColour2": {
+        "group": "TEXT & COLOUR OPTIONS",
+        "type": "dropdown",
+        "label": "Icon color",
+        "value": "custom",
+        "options": {
+          "custom": "Custom colours",
+          "brand": "Brand colours"
+        }
+    },
+    "iconColour": {
+        "group": "TEXT & COLOUR OPTIONS",
+        "type": "colorpicker",
+        "label": "Icon color",
+        "value": "#97CCFF"
+    },
+  	"iconVerticalShift": {
+      	"group": "TEXT & COLOUR OPTIONS",
+      	"type": "number",
+      	"label": "Icon vertical shift (px)",
+		"value": -1
+    },
+  	"spaceBetween": {
+      	"group": "TEXT & COLOUR OPTIONS",
+      	"type": "number",
+      	"label": "Space between icon & text (px)",
+		"value": 5
+    },
+    "fontFamily": {
+        "group": "TEXT & COLOUR OPTIONS",
+        "type": "googleFont",
+        "label": "Text font family",
+        "value": "Passion One"
+    },
+    "fontColour": {
+        "group": "TEXT & COLOUR OPTIONS",
+        "type": "colorpicker",
+        "label": "Text font colour",
+        "value": "#FFFFFF"
+    },
+	"textAlign": {
+        "group": "TEXT & COLOUR OPTIONS",
+        "type": "dropdown",
+        "label": "Text align",
+        "value": "Left",
+        "options": {
+          "left": "Left",
+          "center": "Middle",
+          "right": "Right"
+        }
+    },
+    "fontTransform": {
+        "group": "TEXT & COLOUR OPTIONS",
+        "type": "dropdown",
+        "label": "Username text transform",
+        "value": "uppercase",
+        "options": {
+          "uppercase": "Uppercase",
+          "lowercase": "Lowercase",
+          "none": "As is"
+        }
+    },
+    "animationInDuration": {
+      "group": "ANIMATION OPTIONS",
+      "type": "number",
+      "label": "Animation in duration (ms)",
+      "value": 400
+    },
+    "displayDuration": {
+      "group": "ANIMATION OPTIONS",
+      "type": "number",
+      "label": "Display duration (ms)",
+      "value": 4970
+    },
+    "animationOutDuration": {
+      "group": "ANIMATION OPTIONS",
+      "type": "number",
+      "label": "Animation out duration (ms)",
+      "value": 400
+    },
+    "effectIn": {
+      "group": "ANIMATION OPTIONS",
+      "type": "dropdown",
+      "label": "Animation in effect",
+      "value": "fade",
+      "options": {
+        "blind": "blind",
+        "bounce": "bounce",
+        "clip": "clip",
+        "drop": "drop",
+        "explode": "explode",
+        "fade": "fade",
+        "fold": "fold",
+        "puff": "puff",
+        "scale": "scale",
+        "shake": "shake",
+        "slide": "slide"
+      }
+    },
+    "effectOut": {
+      "group": "ANIMATION OPTIONS",
+      "type": "dropdown",
+      "label": "Animation out effect",
+      "value": "fade",
+      "options": {
+        "blind": "blind",
+        "bounce": "bounce",
+        "clip": "clip",
+        "drop": "drop",
+        "explode": "explode",
+        "fade": "fade",
+        "fold": "fold",
+        "puff": "puff",
+        "scale": "scale",
+        "shake": "shake",
+        "slide": "slide"
+      }
+    },
+    "socialsDiscord": {
+        "group": "SOCIALS",
+        "type": "text",
+        "label": "Discord",
+        "value": ""
+    },
+    "socialsFacebook": {
+        "group": "SOCIALS",
+        "type": "text",
+        "label": "Facebook",
+        "value": ""
+    },
+    "socialsInstagram": {
+        "group": "SOCIALS",
+        "type": "text",
+        "label": "Instagram",
+        "value": "JaebirdsArts"
+    },
+    "socialsReddit": {
+        "group": "SOCIALS",
+        "type": "text",
+        "label": "Reddit",
+        "value": "r/MEOW_IRL"
+    },
+    "socialsTikTok": {
+        "group": "SOCIALS",
+        "type": "text",
+        "label": "TikTok",
+        "value": ""
+    },
+    "socialsTumblr": {
+        "group": "SOCIALS",
+        "type": "text",
+        "label": "Tumblr",
+        "value": ""
+    },
+    "socialsTwitch": {
+        "group": "SOCIALS",
+        "type": "text",
+        "label": "Twitch",
+        "value": "JaebirdsLive"
+    },
+    "socialsTwitter": {
+        "group": "SOCIALS",
+        "type": "text",
+        "label": "Twitter",
+        "value": "JaebirdsArts"
+    },
+    "socialsYouTube": {
+        "group": "SOCIALS",
+        "type": "text",
+        "label": "YouTube",
+        "value": "Jaebirds"
+    }
+}

@@ -1,0 +1,38 @@
+body {
+	font-family: {{fontFamily}}, sans-serif;
+  	font-size: {{fontSize}}px;
+    color: {{fontColour}};
+}
+
+.item {
+    display: none;
+  	text-align: {{textAlign}};
+  	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.item.visible {
+    display: block;
+}
+
+.item i.fa {
+  	position: relative;
+  	top: {{iconVerticalShift}}px;
+  	vertical-align: middle;
+ 	color: {{iconColour}};
+  	margin-right: {{spaceBetween}}px;
+  	display: inline-block;
+}
+.item i.fa.brand-colour.fa-discord {color: #5865f2;}
+.item i.fa.brand-colour.fa-facebook-square {color: #1877f2;}
+.item i.fa.brand-colour.fa-instagram {color: #c32aa3;}
+.item i.fa.brand-colour.fa-reddit-square {color: #ff4500;}
+.item i.fa.brand-colour.fa-tiktok {color: #010101;}
+.item i.fa.brand-colour.fa-tumblr {color: #35465d;}
+.item i.fa.brand-colour.fa-twitch {color: #9146ff;}
+.item i.fa.brand-colour.fa-twitter {color: #1da1f2;}
+.item i.fa.brand-colour.fa-youtube {color: #ff0000;}
+
+.item span {
+  	display: inline-block;
+ 	text-transform: {{fontTransform}};
+	vertical-align: middle;
+}
