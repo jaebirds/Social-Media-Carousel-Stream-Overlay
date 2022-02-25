@@ -3,7 +3,7 @@
     Social Media Carousel Stream Overlay
     Made by Jaebirds
 
-    Ver 1.00
+    Ver 1.01
 
     https://github.com/jaebirds/Social-Media-Carousel-Stream-Overlay
     https://twitter.com/JaebirdsArts
@@ -17,6 +17,7 @@ $(document).ready(function() {
     var effectOut = "{{effectOut}}";
     var animationInDuration = {{animationInDuration}};
     var animationOutDuration = {{animationOutDuration}};
+    var animationInbetween = {{animationInbetween}};
     var items = $(".item");
 
     var socials = [];
@@ -52,6 +53,7 @@ $(document).ready(function() {
 
     function showItem() {
         $(".item").eq(i)
+        .delay(animationInbetween)
         .show(effectIn, animationInDuration)
         .delay(displayDuration)
         .hide(effectOut, animationOutDuration, function(){

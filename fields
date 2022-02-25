@@ -71,19 +71,25 @@
       "group": "ANIMATION OPTIONS",
       "type": "number",
       "label": "Animation in duration (ms)",
-      "value": 400
+      "value": 800
     },
     "displayDuration": {
       "group": "ANIMATION OPTIONS",
       "type": "number",
       "label": "Display duration (ms)",
-      "value": 4970
+      "value": 4070
     },
     "animationOutDuration": {
       "group": "ANIMATION OPTIONS",
       "type": "number",
       "label": "Animation out duration (ms)",
       "value": 400
+    },
+    "animationInbetween": {
+      "group": "ANIMATION OPTIONS",
+      "type": "number",
+      "label": "Inbetween slides duration (ms)",
+      "value": 1000
     },
     "effectIn": {
       "group": "ANIMATION OPTIONS",
